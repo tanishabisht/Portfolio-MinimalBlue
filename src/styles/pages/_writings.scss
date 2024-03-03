@@ -1,0 +1,41 @@
+.writingContent {
+  margin-bottom: 5rem;
+  font-size: var(--mainContent-size);
+  text-align: justify;
+}
+
+.writingBlog {
+  margin: 3rem 0;
+  &__name {
+    color: var(--mainHeading);
+  }
+  &__date {
+    margin-top: 0.5rem;
+    overflow: hidden;
+    padding-left: 5rem;
+    color: var(--text);
+    &:before {
+      background-color: var(--text);
+      content: "";
+      display: inline-block;
+      height: 1.1px;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+      right: 0.5rem;
+      margin-left: -50%;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    .writingBlog__name {
+      color: var(--mainHeadingHover);
+    }
+    .writingBlog__date {
+      color: var(--textHover);
+      &:before {
+        background-color: var(--textHover);
+      }
+    }
+  }
+}

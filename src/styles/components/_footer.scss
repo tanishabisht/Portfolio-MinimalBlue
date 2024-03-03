@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__credits {
+    color: var(--icon-color);
+  }
+
+  &__socialHandlers {
+    display: flex;
+    li {
+      list-style: none;
+      a {
+        position: relative;
+        width: var(--icon-bg-size);
+        height: var(--icon-bg-size);
+        display: block;
+        text-align: center;
+        margin: 0 0.6rem;
+        border-radius: 50%;
+        padding: var(--circle-padding);
+        box-sizing: border-box;
+        text-decoration: none;
+        box-shadow: var(--box-shadow);
+        transition: 0.5s;
+
+        &:hover {
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          text-decoration: none;
+        }
+
+        i {
+          width: 100%;
+          height: 100%;
+          display: block;
+          border-radius: 50%;
+          line-height: calc(var(--icon-bg-size) - var(--circle-padding));
+          font-size: var(--icon-size);
+          color: var(--icon-color);
+          transition: 0.5s;
+          font-size: 2rem;
+        }
+      }
+
+      &:nth-child(1) a:hover i {
+        color: var(--github);
+      }
+      &:nth-child(2) a:hover i {
+        color: var(--insta);
+      }
+      &:nth-child(3) a:hover i {
+        color: var(--linkedIn);
+      }
+      &:nth-child(4) a:hover i {
+        color: var(--mail);
+      }
+    }
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.aboutContainer {
+    margin: var(--margin-section) 0;
+    &__row {
+        display: flex;
+        margin: var(--padding-lg) 0;
+        gap: var(--padding-lg);
+        @media (max-width: 700px) {
+            flex-direction: column;
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+    }
+    &__col {
+        flex: 1;
+        span {
+            color: var(--primary);
+        }
+        &__subHeading {
+            color: var(--heading);
+            font-weight: 500;
+        }
+    }
+}

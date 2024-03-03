@@ -1,0 +1,43 @@
+.processContainer {
+  &__content {
+    margin-bottom: var(--padding-sm);
+    font-size: var(--mainContent-size);
+    span {
+      color: var(--primary);
+      font-weight: 600;
+    }
+  }
+  .processGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @media (max-width: 880px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 550px) {
+      grid-template-columns: 1fr;
+    }
+    &__card {
+      background-color: var(--devCardBg);
+      box-shadow: var(--devCardShadow);
+      padding: 2rem 1.4rem;
+      margin: 0.5rem;
+      position: relative;
+      z-index: -1;
+      &__number {
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        font-size: 4rem;
+        font-weight: 700;
+        color: var(--devCardNumber);
+        z-index: -1;
+      }
+      &__phase {
+        color: var(--devCardHeading);
+      }
+      &__task {
+        color: var(--devCardText);
+      }
+    }
+  }
+}

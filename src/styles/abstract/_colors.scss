@@ -1,0 +1,129 @@
+:root {
+  --gray-0: #151515;
+  --gray-1: #1f1f1f;
+  --gray-2: #383838;
+  --gray-3: #5d5d5d;
+  --gray-4: #969696;
+  --gray-5: #bdbdbd;
+  --gray-6: #dfdfdf;
+  --gray-7: #ffffff;
+  --blue-1: #dcefed;
+  --blue-2: #88c8c0;
+  --blue-3: #2a9d8f;
+  --blue-4: #0d7467;
+
+  --github: #00aced;
+  --insta: #e4405f;
+  --linkedIn: #007bb6;
+  --mail: #dd4b39;
+
+  --primary: var(--blue-3);
+  --primary-dark: var(--blue-4);
+  --primary-light: var(--blue-2);
+  --box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  --projCardFavBg: var(--primary);
+  --projCardFavText: var(--gray-7);
+  --projCardFavBorder: var(--primary-dark);
+
+  --bg: var(--gray-7);
+  --circle-color: var(--blue-1);
+
+  --heading-first: var(--blue-3);
+  --heading: var(--gray-1);
+
+  --btn-regular-text: var(--gray-7);
+  --btn-outline-text: var(--blue-3);
+  --btn-hover-text: var(--gray-7);
+
+  --icon-bg: var(--gray-7);
+  --icon-color: var(--gray-2);
+  --icon-fav: var(--blue-4);
+
+  --mainHeading: var(--gray-2);
+  --textMain: var(--gray-3);
+  --text: var(--gray-4);
+  --subText: var(--gray-5);
+
+  --mainHeadingHover: var(--blue-3);
+  --textHover: var(--blue-2);
+
+  --cardBg: var(--blue-2);
+  --cardHeading: var(--gray-7);
+  --cardText: var(--blue-1);
+  --background-image-1: url("../../public/proj-light-lunarops.png");
+  --background-image-2: url("../../public/proj-light-eureka.png");
+
+  --projCardBg: var(--gray-7);
+  --projCardBorder: var(--gray-3);
+  --projCardBorderHover: var(--gray-3);
+  --projCardHeading: var(--gray-3);
+  --projCardText: var(--gray-4);
+  --projCardSubText: var(--gray-3);
+
+  --devCardBg: var(--gray-7);
+  --devCardShadow: var(--box-shadow);
+  --devCardNumber: var(--blue-1);
+  --devCardHeading: var(--gray-3);
+  --devCardText: var(--gray-4);
+
+  --categoryBtnBg: var(--blue-2);
+  --categoryBtnBorder: var(--blue-2);
+  --categoryBtnText: var(--gray-7);
+  --categoryBtnBgFocus: var(--gray-7);
+  --categoryBtnTextFocus: var(--blue-3);
+
+  --blogNumber: var(--blue-1);
+  --blogLine: var(--blue-2);
+}
+
+[data-theme="dark"] {
+  --bg: var(--gray-2);
+  --circle-color: var(--gray-3);
+
+  --heading-first: var(--gray-7);
+  --heading: var(--gray-7);
+
+  --btn-regular-text: var(--gray-7);
+  --btn-outline-text: var(--gray-7);
+  --btn-hover-text: var(--gray-7);
+
+  --icon-bg: var(--gray-1);
+  --icon-color: var(--gray-6);
+  --icon-fav: var(--blue-4);
+
+  --mainHeading: var(--gray-6);
+  --textMain: var(--gray-6);
+  --text: var(--gray-4);
+  --subText: var(--gray-3);
+
+  --mainHeadingHover: var(--blue-2);
+  --textHover: var(--blue-1);
+
+  --cardBg: var(--gray-1);
+  --cardHeading: var(--gray-7);
+  --cardText: var(--gray-5);
+  --background-image-1: url("../../public/proj-lunarOps.png");
+  --background-image-2: url("../../public/proj-eureka.png");
+
+  --projCardBg: var(--gray-1);
+  --projCardBorder: var(--gray-1);
+  --projCardBorderHover: var(--gray-5);
+  --projCardHeading: var(--gray-6);
+  --projCardText: var(--gray-4);
+  --projCardSubText: var(--gray-3);
+
+  --devCardBg: var(--gray-1);
+  --devCardShadow: var(--box-shadow);
+  --devCardNumber: var(--gray-2);
+  --devCardHeading: var(--gray-6);
+  --devCardText: var(--gray-4);
+
+  --categoryBtnBg: var(--gray-1);
+  --categoryBtnBorder: var(--gray-1);
+  --categoryBtnText: var(--gray-6);
+  --categoryBtnBgFocus: var(--gray-6);
+  --categoryBtnTextFocus: var(--gray-1);
+
+  --blogNumber: var(--gray-1);
+  --blogLine: var(--gray-5);
+}

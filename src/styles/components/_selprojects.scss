@@ -1,0 +1,54 @@
+.selHeader {
+    color: var(--heading-first) !important;
+}
+
+.selCard {
+    background-color: var(--cardBg);
+    margin: 2rem 0;
+    padding: 3rem;
+    border-radius: var(--card-radius);
+    background-repeat: no-repeat;
+    &--one {
+        background-image: var(--background-image-1);
+        background-position: 300px 50%;
+        background-size: 600px;
+    }
+    &--two {
+        background-image: var(--background-image-2);
+        background-position: 300px 70%;
+        background-size: 600px;
+    }
+    &__heading {
+        color: var(--cardHeading);
+    }
+    &__number {
+        font-size: 5rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: var(--cardText);
+        transition: transform 200ms ease 0s;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+    }
+    &__content {
+        transition: transform 200ms ease 0s;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        &__links a {
+            margin-right: 1rem;
+            color: var(--cardText);
+        }
+    }
+    transition: all 0.2s ease 0s, transform 200ms ease 0s;
+    transform: scaleX(1) scaleY(1);
+    &:hover {
+        transition: all 0.2s ease 0s, transform 200ms ease 0s;
+        transform: scaleX(0.95) scaleY(0.95);
+        .selCard__number {
+            transition: transform 200ms ease 0s;
+            transform: translateX(10px) translateY(10px) translateZ(0px);
+        }
+        .selCard__content {
+            transition: transform 200ms ease 0s;
+            transform: translateX(20px) translateY(-20px) translateZ(0px);
+        }
+    }
+}

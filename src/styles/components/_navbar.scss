@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+        margin-left: 1rem;
+        color: var(--dark-textMain);
+        font-weight: var(--bold);
+    }
+    &__logo {
+        margin-right: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            margin-left: 0rem;
+        }
+        span {
+            margin-left: 1rem;
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+    }
+    &__themeToggle {
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+:root {
+    --circle-size: 70rem;
+}
+
+.circleBg {    
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    background-color: var(--circle-color);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.layoutContainer {
+    padding: 0 10rem;
+    @media (max-width: 1250px) {
+        padding: 0 3rem;
+    }
+    @media (max-width: 1000px) {
+        padding: 0 2rem;
+    }
+    @media (max-width: 700px) {
+        padding: 0 1rem;
+    }
+}
