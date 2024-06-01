@@ -1,38 +1,87 @@
+import IconJs from '../public/icon-js.png'
+import IconTs from '../public/icon-ts.png'
+import IconPython from '../public/icon-python.png'
+import IconSql from '../public/icon-sql.png'
+import IconPostgres from '../public/icon-postgres.png'
+import IconAws from '../public/icon-aws.png'
+import IconCpp from '../public/icon-cpp.png';
+import IconGit from '../public/icon-git.png';
+import IconGitHub from '../public/icon-github.png';
+import IconBitbucket from '../public/icon-bitbucket.png';
+import IconLinux from '../public/icon-linux.png';
+import IconNodeJS from '../public/icon-nodejs.png';
+import IconExpressJS from '../public/icon-express.png';
+import IconFlask from '../public/icon-flask.png';
+import IconDocker from '../public/icon-docker.png';
+import IconJira from '../public/icon-jira.png';
+import IconMongoDB from '../public/icon-mongodb.png';
+import IconReactJS from '../public/icon-react.png';
+import IconRedux from '../public/icon-redux.png';
+import IconNextJS from '../public/icon-nextjs.png';
+import IconAngular from '../public/icon-angular.png';
+import IconHTML from '../public/icon-html.png';
+import IconCSS from '../public/icon-css.png';
+import IconSass from '../public/icon-sass.png';
+import IconBootstrap from '../public/icon-bootstrap.png';
+import IconMaterialUI from '../public/icon-materialui.png';
+import IconTailwindCSS from '../public/icon-tailwind.png';
+import IconSelenium from '../public/icon-selenium.png';
+import IconVSCode from '../public/icon-vscode.png';
+import IconXD from '../public/icon-xd.png';
+import IconFigma from '../public/icon-figma.png';
+import IconPhotoshop from '../public/icon-ps.png';
+
+
+
+const name = "Tanisha Bisht"
+
+const tagline = '"A software developer building scalable web magic with a passion for crafting user-centric products"'
+
+const resumeLink = "https://drive.google.com/file/d/1X81vRDVn5epzVnde6iX6NiCVy0YrhGHC/view?usp=sharing"
+
+const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
+
 const stacks = [
-  { name: "javascript", icon: "../public/icon-js.png", isFav: true },
-  { name: "python", icon: "/icon-python.png", isFav: true },
-  { name: "cpp", icon: "/icon-cpp.png", isFav: false },
+  { name: "javascript", icon: IconJs, isFav: true },
 
-  { name: "git", icon: "/icon-git.png", isFav: true },
-  { name: "github", icon: "/icon-github.png", isFav: true },
-  { name: "bitbucket", icon: "/icon-bitbucket.png", isFav: false },
-  { name: "linux", icon: "/icon-linux.png", isFav: false },
+  { name: "typescript", icon: IconTs, isFav: true },
 
-  { name: "nodejs", icon: "/icon-nodejs.png", isFav: true },
-  { name: "expressjs", icon: "/icon-express.png", isFav: true },
-  { name: "flask", icon: "/icon-flask.png", isFav: false },
-  { name: "mongodb", icon: "/icon-mongodb.png", isFav: true },
+  { name: "python", icon: IconPython, isFav: true },
 
-  { name: "react js", icon: "/icon-react.png", isFav: true },
-  { name: "redux", icon: "/icon-redux.png", isFav: true },
 
-  { name: "nextjs", icon: "/icon-nextjs.png", isFav: false },
-  { name: "angular", icon: "/icon-angular.png", isFav: false },
+  { name: "sql", icon: IconSql, isFav: true },
+  { name: "Postgres", icon: IconPostgres, isFav: false },
+  { name: "AWS", icon: IconAws, isFav: true },
 
-  { name: "html", icon: "/icon-html.png", isFav: true },
-  { name: "css", icon: "/icon-css.png", isFav: true },
-  { name: "sass", icon: "/icon-sass.png", isFav: false },
 
-  { name: "bootstrap", icon: "/icon-bootstrap.png" },
-  { name: "material ui", icon: "/icon-materialui.png" },
-  { name: "tailwind css", icon: "/icon-tailwind.png" },
+  { name: "cpp", icon: IconCpp, isFav: false },
+  { name: "git", icon: IconGit, isFav: true },
+  { name: "github", icon: IconGitHub, isFav: true },
+  { name: "bitbucket", icon: IconBitbucket, isFav: false },
+  { name: "linux", icon: IconLinux, isFav: false },
+  { name: "node.js", icon: IconNodeJS, isFav: true },
+  { name: "expressjs", icon: IconExpressJS, isFav: true },
+  { name: "flask", icon: IconFlask, isFav: false },
 
-  { name: "selenium", icon: "/icon-selenium.png", isFav: false },
-  { name: "vscode", icon: "/icon-vscode.png", isFav: true },
+  { name: "docker", icon: IconDocker, isFav: true },
+  { name: "jira", icon: IconJira, isFav: true },
 
-  { name: "xd", icon: "/icon-xd.png", isFav: true },
-  { name: "figma", icon: "/icon-figma.png", isFav: false },
-  { name: "photoshop", icon: "/icon-ps.png", isFav: false },
+  { name: "mongodb", icon: IconMongoDB, isFav: true },
+  { name: "react.js", icon: IconReactJS, isFav: true },
+  { name: "redux", icon: IconRedux, isFav: true },
+  { name: "next.js", icon: IconNextJS, isFav: false },
+  { name: "angular", icon: IconAngular, isFav: false },
+  { name: "html", icon: IconHTML, isFav: true },
+  { name: "css", icon: IconCSS, isFav: true },
+  { name: "sass", icon: IconSass, isFav: false },
+  { name: "bootstrap", icon: IconBootstrap },
+  { name: "material ui", icon: IconMaterialUI },
+  { name: "tailwind css", icon: IconTailwindCSS },
+  { name: "selenium", icon: IconSelenium, isFav: false },
+  { name: "vscode", icon: IconVSCode, isFav: true },
+  { name: "xd", icon: IconXD, isFav: true },
+  { name: "figma", icon: IconFigma, isFav: false },
+  { name: "photoshop", icon: IconPhotoshop, isFav: false },
 ];
 
 const techTopics = ["computer networking", "UX"];
@@ -79,4 +128,4 @@ const socialLinks = [
   { to: "instagram", link: "https://www.instagram.com/tanisha.bisht_/" },
 ];
 
-export { stacks, techTopics, experience, socialLinks };
+export { name, tagline, resumeLink, linkedInLink, stacks, techTopics, experience, socialLinks };
