@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio-template-1.2/static/css/main.dfca3f47.css",
+    "main.js": "/personal-portfolio-template-1.2/static/js/main.6dd8ed8b.js",
+    "static/media/proj-light-lunarops.png": "/personal-portfolio-template-1.2/static/media/proj-light-lunarops.88c6c67b170d7f8932f7.png",
+    "static/media/proj-lunarOps.png": "/personal-portfolio-template-1.2/static/media/proj-lunarOps.168b810b5baf9d549629.png",
+    "static/media/light_me.png": "/personal-portfolio-template-1.2/static/media/light_me.7f0cd5530220faae92ed.png",
+    "static/media/proj-light-eureka.png": "/personal-portfolio-template-1.2/static/media/proj-light-eureka.decc769e32bf83e9f421.png",
+    "static/media/proj-eureka.png": "/personal-portfolio-template-1.2/static/media/proj-eureka.0ba44222b07520fd36b7.png",
+    "static/media/favicon.ico": "/personal-portfolio-template-1.2/static/media/favicon.718596b7d529e108b6f7.ico",
+    "static/media/icon-docker.png": "/personal-portfolio-template-1.2/static/media/icon-docker.0755571c47b5929c7740.png",
+    "index.html": "/personal-portfolio-template-1.2/index.html",
+    "main.dfca3f47.css.map": "/personal-portfolio-template-1.2/static/css/main.dfca3f47.css.map",
+    "main.6dd8ed8b.js.map": "/personal-portfolio-template-1.2/static/js/main.6dd8ed8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfca3f47.css",
+    "static/js/main.6dd8ed8b.js"
+  ]
+}
