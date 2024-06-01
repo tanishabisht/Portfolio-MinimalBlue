@@ -7,7 +7,7 @@ const Works = () => {
       <div>
         <SelectedProjects />
         <Projects />
-        <Process />
+        {/* <Process /> */}
       </div>
     </>
   )

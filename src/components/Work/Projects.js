@@ -55,7 +55,7 @@ const Projects = () => {
                     </a>
                 ))}
 
-                <Link className="projectsGrid__card projectsGrid__cardLast" to="/projects">
+                <Link className="projectsGrid__card projectsGrid__cardLast" to="/all-projects">
                     <h3>See more projects</h3>
                 </Link>
 

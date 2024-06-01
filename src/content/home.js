@@ -43,17 +43,11 @@ const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
 
 const stacks = [
   { name: "javascript", icon: IconJs, isFav: true },
-
   { name: "typescript", icon: IconTs, isFav: true },
-
   { name: "python", icon: IconPython, isFav: true },
-
-
   { name: "sql", icon: IconSql, isFav: true },
   { name: "Postgres", icon: IconPostgres, isFav: false },
   { name: "AWS", icon: IconAws, isFav: true },
-
-
   { name: "cpp", icon: IconCpp, isFav: false },
   { name: "git", icon: IconGit, isFav: true },
   { name: "github", icon: IconGitHub, isFav: true },
@@ -62,10 +56,8 @@ const stacks = [
   { name: "node.js", icon: IconNodeJS, isFav: true },
   { name: "expressjs", icon: IconExpressJS, isFav: true },
   { name: "flask", icon: IconFlask, isFav: false },
-
   { name: "docker", icon: IconDocker, isFav: true },
   { name: "jira", icon: IconJira, isFav: true },
-
   { name: "mongodb", icon: IconMongoDB, isFav: true },
   { name: "react.js", icon: IconReactJS, isFav: true },
   { name: "redux", icon: IconRedux, isFav: true },
@@ -84,35 +76,53 @@ const stacks = [
   { name: "photoshop", icon: IconPhotoshop, isFav: false },
 ];
 
-const techTopics = ["computer networking", "UX"];
-
 const experience = [
+  {
+    company: "Columbia University",
+    role: "Research Assistant - Decision Engine for Socioeconomic Disaster Risk",
+    desc: 'Decision Engine for Socioeconomic Disaster Risk: design, build and deploy database tools to help farmers worldwide make decisions to adapt to climate change',
+    duration: "Jan. 2023 - Present",
+  },
+  {
+    company: "Columbia University",
+    role: "Teaching Assistant - Computer Systems for Data Science",
+    desc: 'Some fun description',
+    duration: "Jan. 2023 - Present",
+  },
+  {
+    company: "CIGS Technology",
+    role: "Fullstack Software Intern",
+    duration: "Dec. 2022 - May. 2023",
+  },
   {
     company: "InSynchro",
     role: "Associate Software Developer",
     duration: "Jun. 2020 - Jun. 2023",
   },
   {
-    company: "CIGS Technology",
-    role: "Intern",
-    duration: "Dec. 2022 - May. 2023",
+    company: "ClayStack",
+    role: "Blockchain Intern",
+    duration: "Dec. 2021 - Jan. 2022"
   },
   {
     company: "Biocom",
     role: "Technical Domain Head",
     duration: "Sep. 2021 - Jan. 2023",
   },
-  { company: "ClayStack", role: "Intern", duration: "Dec. 2021 - Jan. 2022" },
   {
-    company: "IncubateIND",
+    company: "TNAU",
+    role: "Project Intern",
+    duration: "10 - 16 Sep. 2021"
+  },
+  {
+    company: "GitHub Externship, IncubateIND",
     role: "GitHub Extern 2021",
     duration: "Jul. 2021 - Oct. 2021",
   },
-  { company: "TNAU", role: "Project Intern", duration: "10 - 16 Sep. 2021" },
   {
     company: "InSynchro",
-    role: "Internr",
-    duration: "Mar. 2020 - May 2020",
+    role: "Software Engineer Intern",
+    duration: "Mar. 2020 - May. 2020",
   },
 ];
 
@@ -124,8 +134,7 @@ const socialLinks = [
     to: "stackoverflow",
     link: "https://stackoverflow.com/users/15961606/tanisha-bisht",
   },
-  // {to:'npx', link:''},
-  { to: "instagram", link: "https://www.instagram.com/tanisha.bisht_/" },
+  { to: "instagram", link: "https://www.instagram.com/photonmadnesss/" },
 ];
 
-export { name, tagline, resumeLink, linkedInLink, stacks, techTopics, experience, socialLinks };
+export { name, tagline, resumeLink, linkedInLink, stacks, experience, socialLinks };

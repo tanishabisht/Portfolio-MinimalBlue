@@ -23,24 +23,10 @@ const Navbar = () => {
         </Link>
         <span>TANISHA</span>
       </div>
-      <Link to="/works">works</Link>
-
-      {/* <Link href="/photography">
-        <a>photography</a>
-      </Link>
-      <Link href="/writings">
-        <a>writings</a>
-      </Link> */}
-
-      <a href="https://github.com/tanishabisht" target="_blank">github</a>
-
-      {/* <span onClick={toggleTheme} className="nav__themeToggle">
-        {theme === "light" ? (
-          <i className="fas fa-moon"></i>
-        ) : (
-          <i className="fas fa-sun"></i>
-        )}
-      </span> */}
+      <Link to="/projects">Projects</Link>
+      {/* <Link to="/photography">Photography</Link> */}
+      {/* <Link to="/writings">Writings</Link> */}
+      <a href="https://github.com/tanishabisht" target="_blank">GitHub</a>
     </nav>
   );
 };

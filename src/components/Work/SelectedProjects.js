@@ -12,7 +12,7 @@ const SelectedProjects = () => {
               Github
             </a>
             <a
-              href="https://www.youtube.com/watch?v=DtDYor2o5R8&feature=youtu.be"
+              href="https://vimeo.com/894586938?share=copy"
               target="_blank"
             >
               Video
