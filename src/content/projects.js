@@ -1,13 +1,4 @@
-const developmentProcess = [
-    {num:"01", phase:'Understand', tasks:['collect info', 'personas', 'set goals', 'mood board']},
-    {num:"02", phase:'Design Phase', tasks:['web flow', 'low fidelity', 'high fidelity', 'user testing']},
-    {num:"03", phase:'Build Phase', tasks:['frontend', 'backend', 'integration', 'optimization']},
-    {num:"04", phase:'Launch Phase', tasks:['deploy', 'explain client']}
-]
-
-
-
-const selectedProjects = [
+export const selectedProjects = [
     { 
         number:'01', 
         name:'Eureka', 
@@ -26,8 +17,7 @@ const selectedProjects = [
     }
 ]
 
-
-const top6Projects = [
+export const top6Projects = [
     {
         name:'Jishnu Portfolio',
         desc:'Portfolio website with parallax effect for a client',
@@ -65,8 +55,7 @@ const top6Projects = [
     }
 ]
 
-
-const allOtherProjects = {
+export const allOtherProjects = {
     portfolios: [
         {
             name:'Biocom Project Pandemic',
@@ -317,19 +306,3 @@ const allOtherProjects = {
         // ],
     ]
 }
-
-
-
-const otherProjectsDummy = [
-    {
-        name:'',
-        desc:'A functional Twitter Clone with Auth System and CRUD API. Deployment in Progress.',
-        ghLink:'/',
-        stacks:['reactjs'],
-        isFav: false
-    }
-]
-
-
-
-export {developmentProcess, selectedProjects, top6Projects, allOtherProjects}

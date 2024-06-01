@@ -1,4 +1,4 @@
-import { experience } from '../../content/home'
+import { allExperiences } from '../../content/home'
 
 const Experience = () => {
   return (
@@ -8,7 +8,7 @@ const Experience = () => {
         From Campus Clubs to Startups and Open Source Communities
       </p>
       <div className="expGrid">
-        {experience.map((e, k) => (
+        {allExperiences.map((e, k) => (
           <div className="expGrid__card" key={k}>
             <h2 className="expGrid__card__company">{e.company}</h2>
             <h3 className="expGrid__card__role">{e.role}</h3>

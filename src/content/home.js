@@ -30,18 +30,52 @@ import IconVSCode from '../public/icon-vscode.png';
 import IconXD from '../public/icon-xd.png';
 import IconFigma from '../public/icon-figma.png';
 import IconPhotoshop from '../public/icon-ps.png';
+import me from '../public/light_me.png'
 
+// ##################
+// ## HERO SECTION ##
+// ##################
 
+export const name = "Tanisha Bisht"
 
-const name = "Tanisha Bisht"
+export const desc = '"A software developer building scalable web magic with a passion for crafting user-centric products"'
 
-const tagline = '"A software developer building scalable web magic with a passion for crafting user-centric products"'
+export const subDesc = <p>Currently pursuing her master's in Computer Science at <b>Columbia University</b> in the heart of NYC!</p>
 
-const resumeLink = "https://drive.google.com/file/d/1X81vRDVn5epzVnde6iX6NiCVy0YrhGHC/view?usp=sharing"
+export const ctaPrimaryBtn = {
+  text: 'My Projects',
+  href: '#/projects'
+}
 
-const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
+export const ctaSecondaryBtn = {
+  text: 'Contact Me',
+  href: 'https://www.linkedin.com/in/tanisha-bisht/'
+}
 
-const stacks = [
+export const linkedInLink = "https://www.linkedin.com/in/tanisha-bisht/";
+
+export const myImage = me;
+
+// ###################
+// ## ABOUT SECTION ##
+// ###################
+
+export const aboutGridContent = [
+  {
+    left: {heading: 'Fields I have explored ...', text: <h1>UI . <span>UX . web dev .</span> data science . <span>AWS .</span> ML . <span>open source ...</span> copy paste :p</h1>},
+    right: {heading: 'My forte ...', text: <h1><span>MERN Stack .</span> Cloud Computing</h1>}
+  },
+  {
+    left: {heading: 'What drives me?', text: <h1><span>working in a team .</span> people using my products</h1>},
+    right: {heading: 'My qualities ...', text: <h1>quick learner . clean work . collaborative . novelty seeker</h1>}
+  }
+]
+
+// ###################
+// ## SKILL SECTION ##
+// ###################
+
+export const allSkills = [
   { name: "javascript", icon: IconJs, isFav: true },
   { name: "typescript", icon: IconTs, isFav: true },
   { name: "python", icon: IconPython, isFav: true },
@@ -76,7 +110,11 @@ const stacks = [
   { name: "photoshop", icon: IconPhotoshop, isFav: false },
 ];
 
-const experience = [
+// ########################
+// ## EXPERIENCE SECTION ##
+// ########################
+
+export const allExperiences = [
   {
     company: "Columbia University",
     role: "Research Assistant - Decision Engine for Socioeconomic Disaster Risk",
@@ -126,15 +164,12 @@ const experience = [
   },
 ];
 
-const socialLinks = [
+// ####################
+// ## FOOTER SECTION ##
+// ####################
+
+export const socialLinks = [
   { to: "github", link: "https://github.com/tanishabisht" },
   { to: "linkedin", link: "https://www.linkedin.com/in/tanisha-bisht/" },
-  { to: "medium", link: "https://medium.com/@tanisha.bisht2020" },
-  {
-    to: "stackoverflow",
-    link: "https://stackoverflow.com/users/15961606/tanisha-bisht",
-  },
   { to: "instagram", link: "https://www.instagram.com/photonmadnesss/" },
 ];
-
-export { name, tagline, resumeLink, linkedInLink, stacks, experience, socialLinks };
