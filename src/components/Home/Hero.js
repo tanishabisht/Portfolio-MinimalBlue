@@ -1,4 +1,4 @@
-import { name, desc, subDesc, ctaPrimaryBtn, ctaSecondaryBtn, linkedInLink, myImage } from '../../content/home'
+import { name, desc, subDesc, ctaPrimaryBtn, ctaSecondaryBtn, myImage } from '../../content/home'
 
 const Hero = () => {
   return (
