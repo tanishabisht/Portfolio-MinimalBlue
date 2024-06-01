@@ -1,5 +1,5 @@
 # Personal portfolio website #1
-Link to the portfolio: https://tanishabisht.github.io/personal-portfolio-template-1-react/
+Link to the portfolio: [https://tanishabisht.github.io/personal-portfolio-template-1-react/](https://tanishabisht.github.io/personal-portfolio-1-react/)
 
 ![Personal portfolio template - parallax theme](demo/demo.gif)
 
