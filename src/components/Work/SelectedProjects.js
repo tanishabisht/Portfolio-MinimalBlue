@@ -1,46 +1,22 @@
+import { selectedProjects } from '../../content/projects'
+
 const SelectedProjects = () => {
   return (
     <div className="container">
       <h1 className="header selHeader">Selected from collection</h1>
-
-      <div className="selCard selCard--one">
-        <p className="selCard__number">01</p>
-        <div className="selCard__content">
-          <h1 className="selCard__heading">LunarOps</h1>
-          <div className="selCard__content__links">
-            <a href="https://github.com/tanishabisht/LunarOps" target="_blank">
-              Github
-            </a>
-            <a
-              href="https://vimeo.com/894586938?share=copy"
-              target="_blank"
-            >
-              Video
-            </a>
+      {selectedProjects.map((proj, k) => (
+        <div className={`selCard ${proj.className}`} key={k}>
+          <p className="selCard__number">{proj.number}</p>
+          <div className="selCard__content">
+            <h1 className="selCard__heading">{proj.name}</h1>
+            <div className="selCard__content__links">
+              {proj.ghLink && <a href={proj.ghLink} target="_blank">Github</a>}
+              {proj.vidLink && <a href={proj.vidLink} target="_blank">Video</a>}
+              {proj.siteLink && <a href={proj.siteLink} target="_blank">Website</a>}
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="selCard selCard--two">
-        <p className="selCard__number">02</p>
-        <div className="selCard__content">
-          <h1 className="selCard__heading">Eureka</h1>
-          <div className="selCard__content__links">
-            <a
-              href="https://github.com/tanishabisht/CaffeineOverflow-FrontEnd"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=llKI-qmbowA&t=6s"
-              target="_blank"
-            >
-              Video
-            </a>
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

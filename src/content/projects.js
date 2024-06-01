@@ -1,3 +1,7 @@
+// #######################
+// ## SELECTED PROJECTS ##
+// #######################
+
 export const selectedProjects = [
     { 
         number:'01', 
@@ -5,7 +9,7 @@ export const selectedProjects = [
         ghLink:'https://github.com/tanishabisht/CaffeineOverflow-FrontEnd', 
         vidLink:'https://www.youtube.com/watch?v=llKI-qmbowA&t=6s', 
         siteLink:'https://tanishabisht.github.io/CaffeineOverflow-FrontEnd/#/home', 
-        img:'' 
+        className:'selCard--one' 
     },
     { 
         number:'02', 
@@ -13,47 +17,55 @@ export const selectedProjects = [
         ghLink:'https://github.com/tanishabisht/LunarOps', 
         vidLink:'https://www.youtube.com/watch?v=DtDYor2o5R8&feature=youtu.be', 
         siteLink:'https://tanishabisht.github.io/LunarOps/#/login', 
-        img:'' 
+        className:'selCard--two' 
     }
 ]
 
+// ####################
+// ## TOP 6 PROJECTS ##
+// ####################
+
 export const top6Projects = [
     {
-        name:'Jishnu Portfolio',
-        desc:'Portfolio website with parallax effect for a client',
-        ghLink:'https://github.com/tanishabisht/JishnuGoyal',
-        stacks:['reactjs', 'gh-pages', 'parallax-effect', 'css-modules', 'emailjs'],
+        name: 'Jishnu Portfolio',
+        desc: 'Portfolio website with parallax effect for a client',
+        ghLink: 'https://github.com/tanishabisht/JishnuGoyal',
+        stacks: ['reactjs', 'gh-pages', 'parallax-effect', 'css-modules', 'emailjs'],
         isFav: true
     },
     {
-        name:'E-Commerce APIs',
-        desc:'Creating E-Commerce APIs using NodeJS ',
-        ghLink:'https://github.com/tanishabisht/APIs-NodeJS-E-Commerce',
-        stacks:['nodejs', 'express', 'mongoose', 'nodemon', 'express-jwt', 'jsonwebtoken', 'morgan'],
+        name: 'E-Commerce APIs',
+        desc: 'Creating E-Commerce APIs using NodeJS ',
+        ghLink: 'https://github.com/tanishabisht/APIs-NodeJS-E-Commerce',
+        stacks: ['nodejs', 'express', 'mongoose', 'nodemon', 'express-jwt', 'jsonwebtoken', 'morgan'],
         isFav: false
     },
     {
-        name:'SRM ELab print report',
-        desc:'Automation tool for downloading DAA reports from ELab',
-        ghLink:'https://github.com/tanishabisht/SRM-Elab-DAA-Print-Report',
-        stacks:['python', 'selenium'],
+        name: 'SRM ELab print report',
+        desc: 'Automation tool for downloading DAA reports from ELab',
+        ghLink: 'https://github.com/tanishabisht/SRM-Elab-DAA-Print-Report',
+        stacks: ['python', 'selenium'],
         isFav: true
     },
     {
-        name:'React State Management',
-        desc:'Managing states in react locally, passing from parent to child, globally and using rest APIs',
-        ghLink:'https://github.com/tanishabisht/React-StateManagement',
-        stacks:['reactjs', 'react'],
+        name: 'React State Management',
+        desc: 'Managing states in react locally, passing from parent to child, globally and using rest APIs',
+        ghLink: 'https://github.com/tanishabisht/React-StateManagement',
+        stacks: ['reactjs', 'react'],
         isFav: true
     },
     {
-        name:'Angular',
-        desc:'My first angular project, documenting the resources refered to learn the basic concepts',
-        ghLink:'https://github.com/tanishabisht/MiniProj-Angular-Basics',
-        stacks:['angular', 'bootstrap'],
+        name: 'Angular',
+        desc: 'My first angular project, documenting the resources refered to learn the basic concepts',
+        ghLink: 'https://github.com/tanishabisht/MiniProj-Angular-Basics',
+        stacks: ['angular', 'bootstrap'],
         isFav: true
     }
 ]
+
+// ###############################
+// ## ALL PROJECTS + CATEGORIES ##
+// ###############################
 
 export const allOtherProjects = {
     portfolios: [

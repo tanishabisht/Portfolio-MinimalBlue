@@ -1,5 +1,4 @@
-import { SelectedProjects, Projects, Process } from '../components'
-
+import { SelectedProjects, Projects } from '../components'
 
 const Works = () => {
   return (
@@ -7,11 +6,9 @@ const Works = () => {
       <div>
         <SelectedProjects />
         <Projects />
-        {/* <Process /> */}
       </div>
     </>
   )
 }
-
 
 export default Works
