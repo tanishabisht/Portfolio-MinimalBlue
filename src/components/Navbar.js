@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 import { useTheme } from '../utilities';
+import FavIcon from '../public/favicon.ico'
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
@@ -18,7 +19,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="nav__logo">
         <Link to="/">
-          <img src="/favicon.ico" width={50} height={50} />
+          <img src={FavIcon} width={50} height={50} />
         </Link>
         <span>TANISHA</span>
       </div>
@@ -33,13 +34,13 @@ const Navbar = () => {
 
       <a href="https://github.com/tanishabisht" target="_blank">github</a>
 
-      <span onClick={changeThemeHandler} className="nav__themeToggle">
+      {/* <span onClick={toggleTheme} className="nav__themeToggle">
         {theme === "light" ? (
           <i className="fas fa-moon"></i>
         ) : (
           <i className="fas fa-sun"></i>
         )}
-      </span>
+      </span> */}
     </nav>
   );
 };
