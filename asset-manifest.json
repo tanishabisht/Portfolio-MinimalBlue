@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/personal-portfolio-1-react/static/css/main.e67b67eb.css",
-    "main.js": "/personal-portfolio-1-react/static/js/main.875f85b7.js",
-    "static/media/proj-light-lunarops.png": "/personal-portfolio-1-react/static/media/proj-light-lunarops.88c6c67b170d7f8932f7.png",
-    "static/media/proj-lunarOps.png": "/personal-portfolio-1-react/static/media/proj-lunarOps.168b810b5baf9d549629.png",
-    "static/media/light_me.png": "/personal-portfolio-1-react/static/media/light_me.7f0cd5530220faae92ed.png",
-    "static/media/proj-light-eureka.png": "/personal-portfolio-1-react/static/media/proj-light-eureka.decc769e32bf83e9f421.png",
-    "static/media/proj-eureka.png": "/personal-portfolio-1-react/static/media/proj-eureka.0ba44222b07520fd36b7.png",
-    "static/media/favicon.ico": "/personal-portfolio-1-react/static/media/favicon.718596b7d529e108b6f7.ico",
-    "static/media/icon-docker.png": "/personal-portfolio-1-react/static/media/icon-docker.0755571c47b5929c7740.png",
-    "index.html": "/personal-portfolio-1-react/index.html",
-    "main.e67b67eb.css.map": "/personal-portfolio-1-react/static/css/main.e67b67eb.css.map",
-    "main.875f85b7.js.map": "/personal-portfolio-1-react/static/js/main.875f85b7.js.map"
+    "main.css": "/Portfolio-MinimalBlue/static/css/main.90d1cd14.css",
+    "main.js": "/Portfolio-MinimalBlue/static/js/main.d36114fb.js",
+    "static/media/proj-light-lunarops.png": "/Portfolio-MinimalBlue/static/media/proj-light-lunarops.88c6c67b170d7f8932f7.png",
+    "static/media/proj-lunarOps.png": "/Portfolio-MinimalBlue/static/media/proj-lunarOps.168b810b5baf9d549629.png",
+    "static/media/light_me.png": "/Portfolio-MinimalBlue/static/media/light_me.7f0cd5530220faae92ed.png",
+    "static/media/proj-light-eureka.png": "/Portfolio-MinimalBlue/static/media/proj-light-eureka.decc769e32bf83e9f421.png",
+    "static/media/proj-eureka.png": "/Portfolio-MinimalBlue/static/media/proj-eureka.0ba44222b07520fd36b7.png",
+    "static/media/favicon.ico": "/Portfolio-MinimalBlue/static/media/favicon.718596b7d529e108b6f7.ico",
+    "static/media/icon-docker.png": "/Portfolio-MinimalBlue/static/media/icon-docker.0755571c47b5929c7740.png",
+    "index.html": "/Portfolio-MinimalBlue/index.html",
+    "main.90d1cd14.css.map": "/Portfolio-MinimalBlue/static/css/main.90d1cd14.css.map",
+    "main.d36114fb.js.map": "/Portfolio-MinimalBlue/static/js/main.d36114fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e67b67eb.css",
-    "static/js/main.875f85b7.js"
+    "static/css/main.90d1cd14.css",
+    "static/js/main.d36114fb.js"
   ]
 }
